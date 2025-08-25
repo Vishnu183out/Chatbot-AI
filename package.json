@@ -2,9 +2,11 @@
   "name": "agentic-ai-node",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "node app.js",
+    "vercel-build": "echo 'Build step complete'"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "openai": "^5.9.0",
-    "pinecone-client": "^2.0.0"
+    "pinecone-client": "^2.0.0",
+    "serverless-http": "^3.2.0"
   }
 }
